@@ -6,7 +6,7 @@ public class AnnotationDemoApp {
 
 	public static void main(String[] args) {
 		
-		// read the spring config file
+		// read the spring configuration file
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 		// get the bean from spring container
