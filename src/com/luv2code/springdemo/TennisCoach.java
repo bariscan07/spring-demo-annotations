@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-// default scope is singleton. comment the following line out to see the effect of prototype scoped beans.
+// default scope is singleton. comment out the following line to see the effect of prototype scoped beans.
 //@Scope("prototype")
 public class TennisCoach implements Coach {
 	
